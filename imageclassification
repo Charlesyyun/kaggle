@@ -1,0 +1,5 @@
+图像分类任务的小技巧：
+1. 数据增强：特别是CutMix和预测时候对test样本进行TTA(Test Time Augmentation);
+2. 模型：使用表现较好的预训练过的模型；
+3. 优化器：使用AdamW（对于含有L2正则项的优化，如weight decay），学习率采用cosine学习率CosineAnnealingLR;
+4. 交叉验证：使用K折交叉验证；
