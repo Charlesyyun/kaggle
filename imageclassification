@@ -6,6 +6,6 @@
 
 树叶分类竞赛模型表现（LB）：
 1. ResNeXt50 (97.818%);
-2. ResNeSt50 ();
-3. Dense161 ();
-4. EfficientNetb4 ();
+2. ResNeSt50 (98.159%);
+3. Dense161 (98.090%);
+4. EfficientNetb4 (97.886%);
